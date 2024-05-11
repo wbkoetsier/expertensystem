@@ -8,10 +8,10 @@
     "updateContentCommand": "pip install -r requirements.txt",
     "postCreateCommand": "",
     "postAttachCommand": {
-      "server": "flask --debug run"
+      "server": "python app.py"
     },
     "portsAttributes": {
-      "5000": {
+      "6543": {
         "label": "Application",
         "onAutoForward": "openPreview"
       }
@@ -31,6 +31,6 @@
         ]
       }
     },
-    "forwardPorts": [5000]
+    "forwardPorts": [6543]
   }
   
